@@ -29,6 +29,10 @@ This is a simple 2D Unity project demonstrating basic gameplay mechanics and cha
 2. **Minimap**:
    - Observe the player’s position in the minimap (displayed in the corner).
 
+## Play Online
+
+You can try out the project on **itch.io**:  
+[Minimap Demo on itch.io](https://shutafimpro.itch.io/minimap)
 
 ## License
 
