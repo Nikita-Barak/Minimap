@@ -34,6 +34,21 @@ This is a simple 2D Unity project demonstrating basic gameplay mechanics and cha
 You can try out the project on **itch.io**:  
 [Minimap Demo on itch.io](https://shutafimpro.itch.io/minimap)
 
+## Assignment-Specific Question: Camera View Scaling Issue
+
+In Unity's `Simulator` mode, rotating the device (simulating portrait or landscape) changes how the scene is displayed. 
+
+### Why do objects appear larger in portrait mode?
+
+When the camera is set to an **orthographic projection**, the `orthographicSize` controls the vertical view of the camera. As the aspect ratio changes (e.g., rotating from landscape to portrait), Unity scales the camera's horizontal field of view to fit the new screen width. 
+
+In **portrait mode**, the narrower width means Unity "zooms in" horizontally to keep everything visible. This makes objects appear larger. Conversely, in **landscape mode**, the wider width makes objects appear smaller because more of the scene is visible horizontally.
+
+### Solution to Maintain Object Size:
+
+To ensure objects appear the same size regardless of rotation, we use a script to dynamically adjust the camera's `orthographicSize` based on the current screen aspect ratio. Here's the script:
+
+
 ## License
 
 This project is open source and can be freely used for learning or personal projects. Feel free to expand upon it!
