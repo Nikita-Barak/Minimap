@@ -46,7 +46,7 @@ In **portrait mode**, the narrower width means Unity "zooms in" horizontally to 
 
 ### Solution to Maintain Object Size:
 
-To ensure objects appear the same size regardless of rotation, we use a script to dynamically adjust the camera's `orthographicSize` based on the current screen aspect ratio. Here's the script:
+To ensure objects appear the same size regardless of rotation, we use a script to dynamically adjust the camera's `orthographicSize` based on the current screen aspect ratio.
 
 
 ## License
